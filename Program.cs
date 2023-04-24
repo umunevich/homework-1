@@ -20,7 +20,7 @@ namespace ConsoleApp1
             Console.Write("Enter number of them: ");
             int NumP = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write($"Total Price: {PriceCb*NumCb + PriceP*NumP}");
+            Console.Write($"Total: {PriceCb*NumCb + PriceP*NumP}");
             Console.ReadKey(false);
         }
     }
